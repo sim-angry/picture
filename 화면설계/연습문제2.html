@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>할 일 목록 애플리케이션</title>
+    <link rel="stylesheet" href="styles2.css"> <!-- CSS 파일 링크 -->
+</head>
+<body>
+    <div id="container">
+        <h1>할 일 목록</h1>
+        <form action="#" onsubmit="return false;">
+            <input type="text" id="subject" placeholder="할 일을 입력하세요..." />
+            <button type="button" onclick="list_add()">과목 추가</button>
+            <!-- <button type="button" onclick="list_delete()">과목 삭제</button> -->
+        </form>
+        <ul id="itemlist"></ul>
+    </div>
+    <script src="script2.js"></script> <!-- JavaScript 파일 링크 -->
+</body>
+</html>
+
